@@ -1,0 +1,14 @@
+Widget sliderButton() {
+    return SlideAction(
+      height: 60,
+      sliderButtonIconSize: 18,
+      sliderRotate: false,
+      innerColor: Colors.green[400],
+      outerColor: Colors.green[100],
+      borderRadius: 17,
+      elevation: 0,
+      text: "Slider to Enter",
+      textStyle: const TextStyle(fontSize: 16),
+      onSubmit: () => sendDataToDB(context),
+    );
+  }
